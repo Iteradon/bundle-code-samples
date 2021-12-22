@@ -1,0 +1,272 @@
+[
+   {
+     "tags"   : [],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/chris-stenger-mcsTq_JK474-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)", "_data": "desert"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2021-12-21 06:30 PM"}
+             },
+             {
+               "key"  : "rating",
+               "data" : 5
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["pristine"]}
+             },
+             {
+               "key"  : "features",
+               "data" : ["tree", "dune", "sand", "sky"]
+             }
+           ]
+         }
+       }
+     ]
+   },
+   {
+     "tags"   : [],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/ian-keefe-tPvvRvfEOuA-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)", "_data": "mountains"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2019-07-21 13:37 -4:30"}
+             },
+             {
+               "key"  : "rating",
+               "data" : 3
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["plants"]}
+             },
+             {
+               "key"  : "features",
+               "data" : ["tree", "mountain", "sky", "road", "snow"]
+             }
+           ]
+         }
+       }
+     ]
+   },
+   {
+     "tags"   : ["night"],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/ken-cheung-KLC3q7Z0RDE-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)", "_data": "plains"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2019-07-21 10:05 PM +2:30"}
+             },
+             {
+               "key"  : "rating",
+               "data" : 5
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["pristine"]}
+             },
+             {
+               "key"  : "features",
+               "data" : ["galaxy", "shrubs", "sky", "rocks"]
+             }
+           ]
+         }
+       }
+     ]
+   },
+   {
+     "tags"   : [],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/damir-babacic-BtHmwLekiIU-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)", "_data": "cave"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2011-04-07 12:00 +00:00"}
+             },
+             {
+               "key"  : "rating",
+               "data" : 3
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["pristine", "plants"]}
+             },
+             {
+               "key"  : "features",
+               "data" : ["moss"]
+             }
+           ]
+         }
+       }
+     ]
+   },
+   {
+     "tags"   : ["invalid"],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/jocelyn-morales-8Cb050yvhh4-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2010-11-03"}
+             },
+             {
+               "key"  : "rating",
+               "data" : {"_meta": "number"}
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)"}
+             },
+             {
+               "key"  : "features",
+               "data" : {"_meta": "list"}
+             }
+           ]
+         }
+       }
+     ]
+   },
+   {
+     "tags"   : [],
+     "fields" : 
+     [
+       {
+         "type" : "image",
+         "key"  : "photo",
+         "name" : "Photo",
+         "path" : "images/parsa-mahmoudi-dqgVzjcUDVk-unsplash.jpg"
+       },
+       {
+         "type"   : "board",
+         "key"    : "labels",
+         "name"   : "Labels",
+         "target" : "photo",
+         "data"   : 
+         {
+           "_meta" : "map",
+           "_data" :
+           [
+             {
+               "key"  : "type",
+               "data" : {"_meta": "select.target(climate)", "_data": "coastal"}
+             },
+             {
+               "key"  : "captured",
+               "data" : {"_meta": "moment", "_data": "2016-08-07 16:03 +07:12"}
+             },
+             {
+               "key"  : "rating",
+               "data" : 4
+             },
+             {
+               "key"  : "effect",
+               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["water", "color"]}
+             },
+             {
+               "key"  : "features",
+               "data" : ["sand", "ocean", "sky", "woodwork"]
+             }
+           ]
+         }
+       }
+     ]
+   }
+]
