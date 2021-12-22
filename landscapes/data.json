@@ -239,32 +239,17 @@
          "key"    : "labels",
          "name"   : "Labels",
          "target" : "photo",
-         "data"   : 
+         "data"   :
          {
-           "_meta" : "map",
+           "_meta" : {"body" : {"type" : 1, "captured": 2, "rating" : 3, "effect" : 4, "features" : 5}},
            "_data" :
-           [
-             {
-               "key"  : "type",
-               "data" : {"_meta": "select.target(climate)", "_data": "coastal"}
-             },
-             {
-               "key"  : "captured",
-               "data" : {"_meta": "moment", "_data": "2016-08-07 16:03 +07:12"}
-             },
-             {
-               "key"  : "rating",
-               "data" : 4
-             },
-             {
-               "key"  : "effect",
-               "data" : {"_meta": "select.spread.target(beauty)", "_data": ["water", "color"]}
-             },
-             {
-               "key"  : "features",
-               "data" : ["sand", "ocean", "sky", "woodwork"]
-             }
-           ]
+           {
+             "type"     : {"_meta": "select.target(climate)", "_data": "coastal"},
+             "captured" : {"_meta": "moment", "_data": "2016-08-07 16:03 +07:12"},
+             "rating"   : 4,
+             "effect"   : {"_meta": "select.spread.target(beauty)", "_data": ["water", "color"]},
+             "features" : ["sand", "ocean", "sky", "woodwork"]
+           }
          }
        }
      ]
