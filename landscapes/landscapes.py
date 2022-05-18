@@ -130,7 +130,7 @@ def load_tags(client):
   client.send({"command":"create-tags", "data":tags})
 
 #
-# Load the data of the project
+# Load the data of the project.
 #
 
 def load_data(client):
@@ -146,6 +146,10 @@ def load_data(client):
   command  = {"command":"create-units", "data": data}
   response = client.send(command)
 
+
+#
+# Add all of the images in a folder to the project.
+#
 
 def load_folder(client, dirpath):
 
