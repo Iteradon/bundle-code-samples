@@ -153,7 +153,7 @@ def load_data(client):
 
 def load_folder(client, dirpath):
 
-  files   = os.dirpath()
+  files   = [dirpath + os.sep + x for x in os.listdir(dirpath) if os.path.isfile(dirpath + os.sep + x)]
   units   = []
   command = {"command":"create-units", "data":units}
 
