@@ -159,13 +159,14 @@ def load_folder(client, dirpath):
 
   for path in files:
   
+    path   = os.path.realpath(path)
     fields = []
     tags   = []
     unit   = {"fields":fields, "tags":tags}
     
     units.append(unit)
     
-    fields.append({"type":"image", "key":"sample", "name":"Sample", "path":path})
+    fields.append({"type":"image", "key":"sample", "name":"Sample", "path": path})
 
   response = client.send(command)
 
