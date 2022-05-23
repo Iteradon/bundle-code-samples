@@ -12,6 +12,14 @@ class Client:
     self.pipe = open('\\\\.\\pipe\\' + pipe_name, 'r+b', 0)
   
   #
+  # Close the pipe to disconnect from the Bundle application.
+  #
+  
+  def close(self):
+    
+    self.pipe.close()
+    
+  #
   # Send a json payload to the Bundle application.
   #
   
